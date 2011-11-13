@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+
+<head>
+
+<title>The Boy's Republic: Temp</title>
+<LINK rel="stylesheet" media="screen" href="css/style.css" type="text/css">
+</head>
+
+<div id="wrapper">
+	<div id="log">
+		<form name="login">
+			<input type="text" name="userid" value="User ID"/>
+			<input type="text" name="password"value="Password"/>
+			<input type="submit" name="this" value="Login"/>
+		</form>
+	</div>
+	<div id="register">
+		<a href="registration.html">Register</a> 
+	</div>
+	<div id="title1">
+		<a href="home.html">The Boy's Republic</a>
+	</div>
+	<div id="title2">
+		A Deftones Fan Community
+	</div>
+	<ul id="navbar1">
+		<li id="news"><a href="news.html">News</a>
+		</li>
+		<li id="media"><a href="media.html">Media</a>
+			<ul>
+				<li><a href="media_official.html">Official</a></li>
+				<li><a href="media_live.html">Live</a></li>
+			</ul>
+		</li>
+		<li id="tour"><a href="#">Tour</a>
+			<ul>
+				<li><a href="tour_current.html">Current</a></li>
+				<li><a href="tour_history.html">History</a></li>
+			</ul>
+		</li>
+		<li id="about"><a href="about.html">About</a>
+		</li>
+		<p class="clear" />
+	</ul>
+	<!-- <div id="mainmenu">
+		<div id="menu1">
+			<p>News</p>
+		</div>
+		<div id="menu2">
+			<p>Media</p>
+		</div>
+		<div id="menu3">
+			<p>Tour</p>
+		</div>
+		<div id="menu4">
+			<p>About</p>
+		</div>
+		<p class="clear" />
+	</div>-->
+	<div id="twitter">
+		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+		new TWTR.Widget({
+		version: 2,
+		type: 'profile',
+		rpp: 4,
+		interval: 30000,
+		width: 200,
+		height: 260,
+		theme: {
+			shell: {
+			background: '#333333',
+			color: '#ffffff'
+			},
+			tweets: {
+			background: '#0a070a',
+			color: '#ffffff',
+			links: '#7a1002'
+			}
+		},
+		features: {
+			scrollbar: false,
+			loop: false,
+			live: true,
+			behavior: 'all'
+		}
+		}).render().setUser('Th_BoysRepublic').start();
+		</script>
+	</div>
+	<div id="registrationcontent">
+		<p>
+			<span class="redbold">The Boy's Republic</span> is an invite-only community. If you know a member, they will be able to help you with an invite. 
+			Otherwise, leave your email address and we will contact you once we open the site to a wider audience.
+		</p>
+		<form name="reg">
+			<input type="text" name="email" value="Email Address"/>
+			<input type="submit" name="this" value="Submit"/>
+		</form>
+	</div>
+</div>
+
+
+
+<body>
+
+
+</body>
+</html>
