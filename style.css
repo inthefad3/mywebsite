@@ -1,0 +1,347 @@
+#wrapper {
+width: 960px;
+height: 780px;
+margin-right: auto;
+margin-left: auto;
+background-image: url('images/background.jpg');
+}
+
+/*Form formatting*/
+#log form {
+text-align: right;
+margin-right: 10px;
+margin-top: 0px;
+}
+#log input{
+font-size: 9px;
+margin-top: 10px;
+}
+#log input[type="text"]{
+width: 60px;
+}
+#register {
+text-align: right;
+margin-right: 18px;
+margin-top: 5px;
+font-size: 12px;
+}
+#register a{
+text-decoration: none;
+}
+#register a:link {
+color:black;
+}
+#register a:hover {
+color:#7a1002;
+}
+#register a:visited {
+color: black;
+}
+
+
+/*Title formatting*/
+#title1 {
+text-align:center;
+color: #7a1002;
+font-size:50px;
+}
+#title2 {
+text-align:center;
+margin-left: 275px;
+margin-top:8 px;
+}
+#title1 a{
+text-decoration: none;
+}
+#title1 a:link {
+color: #7a1002;
+}
+#title1 a:hover {
+color:#7a1002;
+}
+#title1 a:visited {
+color: #7a1002;
+}
+
+
+/*Mainbar formatting*/
+#navbar1 {
+	margin: 0;
+	padding: 0;
+	height: 1em; }
+#navbar1 li {
+	list-style: none;
+	float: left; 
+}
+#navbar1 li a {
+	display: block;
+	padding: 3px 8px;
+	color: black;
+	text-decoration: none; 
+}
+#navbar1 li ul {
+	display: none; 
+	width: 10em;
+
+}
+#navbar1 li a:hover{
+	color: #7a1002;
+}
+#navbar1 li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0; }
+
+#navbar1 li li a:hover {
+	color: #7a1002; 
+}
+#navbar1{
+	width: 740px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 60px;
+    /*border: 1px solid #ccc;*/
+}
+#news {
+text-align: left;
+width: 20px;
+margin-left: 20px;
+margin-right: 90px;
+margin-top: 7px;
+float: left;
+}	
+#media {
+text-align: left;
+width: 20px;
+margin-left: 90px;
+margin-right: 20px;
+margin-top: 7px;
+float: left;
+}
+#tour {
+text-align: left;
+width: 20px;
+margin-left: 178px;
+margin-right: 10px;
+margin-top: 7px;
+float: left;
+}
+#about {
+text-align: left;
+width: 20px;
+margin-left: 170px;
+margin-right: 0px;
+margin-top: 7px;
+float: left;
+}	
+
+
+/*Misc formatting*/
+p.clear {
+    clear: both;
+    height: 0;  /* only necessary for IE */
+    margin: 0;
+    padding: 0;
+}
+div#twitter{
+float: right;
+margin-top: 80px;
+}
+.header{
+font-weight: bold;
+}
+.theader{
+font-weight: bold;
+margin-left: 150px;
+font-size: 20px;
+}
+.mheader{
+font-weight: bold;
+margin-left: 30px;
+font-size: 15px;
+}
+
+
+/*Home formatting*/
+#hwrapper {
+width: 960px;
+height: 780px;
+margin-right: auto;
+margin-left: auto;
+background-image: url('images/home2.jpg');
+}
+#htitle1 {
+text-align:right;
+color: #7a1002;
+font-size:50px;
+margin-right: 50px;
+padding-top: 50px;
+}
+#htitle2 {
+text-align:right;
+margin-right: 25px;
+margin-top:8 px;
+}
+#hnavbar1 {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+	width: 740px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 480px;
+    /*border: 1px solid #ccc;*/
+}
+#hnavbar1 li {
+	list-style: none;
+	float: left; 
+}
+#hnavbar1 li a {
+	display: block;
+	padding: 3px 8px;
+	color: black;
+	text-decoration: none; 
+}
+#hnavbar1 li a:hover{
+	color: #7a1002;
+}
+#hnavbar1 li li a:hover {
+	color: #7a1002; 
+}
+
+
+/*News formatting*/
+div#newscontent{
+width: 550px;
+height: 440px;
+margin-left:160px;
+margin-right:140px;
+margin-top: 84px;
+padding-left: 20px;
+padding-right:10px;
+padding-top: 0px;
+overflow: auto;
+/*border: 1px solid #ccc;*/
+}
+#newscontent p{
+padding:0px;
+}
+
+
+/*Media formatting*/
+#videocontent {
+width: 550px;
+height: 440px;
+margin-left:160px;
+margin-right:140px;
+margin-top: 84px;
+padding-left: 20px;
+padding-right:10px;
+padding-top: 10px;
+/*border: 1px solid #ccc;*/
+overflow: auto;
+}
+.video{
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 50px;
+
+}
+
+/*Tour formatting*/
+#tourcontent {
+width: 550px;
+height: 400px;
+margin-left:180px;
+margin-right:140px;
+margin-top: 84px;
+padding-left: 20px;
+padding-right:10px;
+padding-top: 10px;
+/*border: 1px solid #ccc;*/
+overflow: auto;
+}
+#tourcontent table{  
+width: 400px;
+margin-top: 20px;
+}
+#tourcontent table, td, th{  
+text-align: center;
+border:1px transparent;
+}
+#tourcontent th{    
+color:#7a1002;
+}
+#tourcontent td{
+padding: 6px;
+}
+
+
+/*About formatting*/
+div#aboutcontent{
+width: 550px;
+height: 440px;
+margin-left:160px;
+margin-right:140px;
+margin-top: 120px;
+padding-left: 20px;
+padding-right:10px;
+padding-top: 0px;
+overflow: auto;
+/*border: 1px solid #ccc;*/
+}
+#aboutcontent p{
+padding:0px;
+}
+#aboutcontent h3{
+text-align: center;
+}
+
+
+/*Registration formatting*/
+div#registrationcontent{
+width: 550px;
+height: 440px;
+margin-left:160px;
+margin-right:140px;
+margin-top: 120px;
+padding-left: 20px;
+padding-right:10px;
+padding-top: 0px;
+overflow: auto;
+/*border: 1px solid #ccc;*/
+}
+div#registrationcontent p{
+padding-top: 20px;
+padding-right: 10px;
+padding-left: 10px;
+}
+#registrationcontent form {
+text-align: center;
+margin-top: 0px;
+}
+#registrationcontent input{
+font-size: 12px;
+margin-top: 10px;
+}
+#registrationcontent input[type="text"]{
+width: 100px;
+}
+.redbold{
+font-weight: bold;
+color: #7a1002;
+}
+
+/*TestHome*/
+img.source-image {
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	z-index:0;
+}
+body {
+  overflow: hidden;
+}
